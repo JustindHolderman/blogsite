@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  position: relative;
+}
+
+
+.dark {
+  background-color:#243447;
+  height: 100vh;
+  color: #bebebe
+ 
+}
+
+
+.light {
+  background-color: #f0ead6;
+  color: black;
+  height: 100vh;
+}
+
+
+
+
+header{
+    border: solid black;
+    position: relative;
+    
+}
+
+section{
+    border: solid black;
+    margin: 10px;
+}
+
+footer {
+    border-top: solid black;
+}
+
+.footer1{
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+}
+
+.footer2{
+        right: 0px;
+        position: relative;
+        bottom: 5px;
+        width: 250px;
+
+}
+
+button{
+    position: relative;
+
+}
+
+.inline-block{
+    display: inline-block;
+
+}
+
+div {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+h2 {
+    border-bottom: solid black;
+    margin: 5px;
+}
+
+p {
+    margin: 5px;
+}
+
+
+
+.footer2 li{
+    list-style-type: none;
+}
